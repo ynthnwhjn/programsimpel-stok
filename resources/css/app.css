@@ -1,0 +1,33 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~datatables.net-bs/css/dataTables.bootstrap.css';
+@import '~angular-ui-grid/ui-grid.css';
+/* @import '~angular-datatables/dist/css/angular-datatables.css'; */
+@import '~angular-toastr/dist/angular-toastr.css';
+@import '~eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css';
+@import '~font-awesome/css/font-awesome.css';
+@import 'skins/skin-black.css';
+@import 'AdminLTE.css';
+
+.ui-grid-header-cell {
+    text-align: center;
+}
+
+.ui-grid-invisible {
+    display: none;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.box-header .btn-group {
+    margin-left: auto;
+}
+
+.box-header,
+.box-body,
+.box-footer {
+    padding: 15px;
+}
